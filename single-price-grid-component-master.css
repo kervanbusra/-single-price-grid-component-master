@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h4 {
+  font-weight: 700;
+}
+p,
+li,
+span {
+  font-weight: 400;
+}
+body {
+  width: 100%;
+  background-color: hsl(204, 43%, 93%);
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: white;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+.container__item-1 {
+  padding: 30px;
+}
+.header-blue {
+  color: hsl(179, 62%, 43%);
+}
+
+.header-green {
+  color: hsl(71, 73%, 54%);
+  margin: 30px 0;
+}
+.text p {
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
+
+.card-2 {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.card-1,
+.card-2 {
+  color: aliceblue;
+  padding: 30px;
+}
+.card-1 {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.card-1-header {
+  letter-spacing: 1.3px;
+}
+.card-1-money {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.big-span {
+  font-size: 30px;
+}
+.small-span {
+  font-size: 16px;
+  margin-left: 10px;
+  opacity: 0.7;
+}
+
+.card-1-text {
+  letter-spacing: 0.6px;
+}
+
+button {
+  margin-top: 40px;
+  width: 250px;
+  height: 50px;
+  background-color: hsl(71, 73%, 54%);
+  border: 0;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
+.card-2 {
+  background-color: hsl(179, 62%, 70%);
+}
+
+.card-2-header {
+  margin-bottom: 20px;
+  letter-spacing: 1.3px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  height: 30px;
+  line-height: 30px;
+  letter-spacing: 0.6px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 400px) { 
+    .container {
+        width: 400px;
+    }
+
+}
+@media screen and (min-width: 1200px) {
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 800px;
+  }
+  .container__item-2 {
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+    border-top: 15px;
+  }
+.card-1 {
+    border-bottom-left-radius: 15px;
+    width: 400px;
+}
+.card-2 {
+    border-bottom-left-radius: 0px;
+    width: 400px;
+}
+  
+}
